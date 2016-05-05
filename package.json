@@ -1,0 +1,27 @@
+{
+  "name": "bw_basket",
+  "version": "1.0.0",
+  "description": "Blackwell redesign 2015.",
+  "main": "gulpfile.js",
+  "private": "true",
+  "dependencies": {
+    "browser-sync": "^2.10.1",
+    "browserify": "^13.0.0",
+    "browserify-shim": "^3.8.12",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "jshint": "^2.9.1",
+    "lodash": "^4.8.2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp-coverage": "^0.3.38",
+    "gulp-mocha": "^2.2.0",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.4.5"
+  }
+}

@@ -1,0 +1,46 @@
+{
+    "boss"    : true,
+    "browser" : false,
+    "curly"   : true,
+    "eqeqeq"  : true,
+    "eqnull"  : true,
+    "es3"     : true,
+    "immed"   : true,
+    "latedef" : true,
+    "multistr": true,
+    "newcap"  : false,
+    "noarg"   : true,
+    "sub"     : true,
+    "undef"   : true,
+    "unused"  : true,
+
+    "globals" : {
+
+        "AMD"         : "AMD",
+        "module"      : true,
+        "require"     : true,
+        "requirejs"   : true,
+        "define"      : true,
+
+        "Env"         : "Environments",
+        "console"     : true,
+
+        "Libs"        : "General Purpose Libraries",
+        "$"           : true,
+        "jQuery"      : true,
+        "EventEmitter": true,
+        "browserify"  : true,
+        "process"     : true,
+
+        "Test"        : "Testing",
+        "mocha"       : true,
+        "sinon"       : true,
+        "describe"    : true,
+        "it"          : true,
+        "expect"      : true,
+        "beforeEach"  : true,
+        "waitsFor"    : true,
+        "runs"        : true,
+        "afterEach"   : true
+    }
+}

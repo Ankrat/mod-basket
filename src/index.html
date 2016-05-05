@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basket Module</title>
+    <style>
+        body{
+            margin: 0 auto;
+            max-width: 1170px;
+            font-size: 14px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        header{
+            background: #dedede;
+            padding: 1rem;
+            margin: 1rem 0;
+            text-align: center;
+            width: 100%;
+        }
+        main{
+            width: 80%;
+            flex: 1 auto;
+        }
+        .prod{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            background: #ededed;
+        }
+        .prod div{
+            flex: 1 auto;
+        }
+        .detail{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            background: #bcbcbc;
+        }
+        .detail div{
+            flex: 1 auto;
+        }
+
+        aside{
+            width: 20%;
+            flex: 1 auto;
+        }
+        .mini{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            background: #d1d1d1;
+        }
+        .mini div{
+            flex: 1 auto;
+        }
+
+        .basketTotal{}
+        .basketTotal p{ text-align: right; }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Module Basket should be independent no need for it to know the rest of the HTML/app ... </h1>
+        <p>Here some HTML are bound for event only</p>
+        <p>Eventually tried to implement event agreggator</p>
+    </header>
+
+    <main>
+
+        <h2>Product list to display</h2>
+        <section class="prod">
+            <div>
+                <div class="books-list__info">
+                    <h3>ex dolore veniam</h3>
+                    <p itemprop="author">Tommie Carter</p>
+                    <p class="books-list__format">labore</p>
+                    <div class="books-list__price">
+                        <p class="book-price">£16.99</p>
+                    </div>
+                </div><button class="js-add-to-basket" data-isbn="338548213657">Add to basket</button></div>
+            <div>
+                <div class="books-list__info">
+                    <h3>consectetur ut occaecat</h3>
+                    <p itemprop="author">Lindsay Fernandez</p>
+                    <p class="books-list__format">et</p>
+                    <div class="books-list__price">
+                        <p class="book-price">£20</p>
+                    </div>
+                </div><button class="js-add-to-basket" data-isbn="688991835547">Add to basket</button></div>
+            <div>
+                <div class="books-list__info">
+                    <h3>consectetur dolor pariatur</h3>
+                    <p itemprop="author">Thompson Castaneda</p>
+                    <p class="books-list__format">ullamco</p>
+                    <div class="books-list__price">
+                        <p class="book-price">£0.99</p>
+                    </div>
+                </div><button class="js-add-to-basket" data-isbn="324046062098">Add to basket</button></div>
+            <div>
+                <div class="books-list__info">
+                    <h3>do nisi deserunt</h3>
+                    <p itemprop="author">Cox Ruiz</p>
+                    <p class="books-list__format">dolor</p>
+                    <div class="books-list__price">
+                        <p class="book-price">£150.49</p>
+                    </div>
+                </div><button class="js-add-to-basket" data-isbn="249399866494">Add to basket</button></div>
+            <div>
+                <div class="books-list__info">
+                    <h3>ad anim quis</h3>
+                    <p itemprop="author">Savage Russell</p>
+                    <p class="books-list__format">in</p>
+                    <div class="books-list__price">
+                        <p class="book-price">£20</p>
+                    </div>
+                </div><button class="js-add-to-basket" data-isbn="458861569563">Add to basket</button></div>
+        </section>
+
+        <h2>Basket detail</h2>
+        <section class="detail">
+            <!-- <div>
+                <div class="books-list__info">
+                    <h3>ad anim quis</h3>
+                    <div class="books-list__price">
+                        <p class="book-price">£20</p>
+                    </div>
+                </div>
+                <div class="books-list__qty">
+                    <p class="book-qty">1</p>
+                </div>
+                <button class="js-remove-from-basket" data-isbn="458861569563">Remove</button>
+            </div> -->
+        </section>
+
+    </main>
+
+    <aside>
+        <h2>Basket mini to see update</h2>
+        <section class="mini">
+
+        </section>
+        <section class="basketTotal">
+            <p></p>
+        </section>
+    </aside>
+
+    <script src="/scripts/main.js"></script>
+</body>
+</html>
